@@ -4,7 +4,7 @@ repos:
       - id: check-secrets
         name: Check for obvious secrets
         entry: python scripts/check_secrets.py
-        language: python
+        language: system
         files: '\.(py|yaml|yml|json|md|txt|cfg|ini)$'
         pass_filenames: false
         always_run: true
