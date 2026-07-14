@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+.env.local
+.env.*.local
+secrets.yml
+credentials
+*.pem
+*.key
+*.p12
+*.jks
+
+# Logs
+*.log
+
+# Misc
+payload.json
+
+# Node
+node_modules/
