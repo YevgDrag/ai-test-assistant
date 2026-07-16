@@ -1,0 +1,3 @@
+The payment flow should support saved cards and use secure handling.
+Users can remove saved cards from checkout.
+Payment method X is available only for logged-in users.
